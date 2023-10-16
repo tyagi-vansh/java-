@@ -23,5 +23,6 @@ public class Salary {
         System.out.println("ENTER THE SALARY OF AN EMPLOYEE: ");
         double salary=s.nextDouble();
         System.out.println("THE NET_SALARY OF AN EMPLOYEE : "+net_Salary(salary));
+        s.close();
     }
 }
